@@ -1,4 +1,4 @@
-# Eine Demo Website
+# Eine Website für eine Werbeagentur in Wien.
 
 ### Die Website wurde ausschließlich nur mit HTML5 und CSS3 erstellt.
 
