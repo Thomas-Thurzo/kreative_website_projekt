@@ -1,0 +1,188 @@
+/* Custom Properties (Variablen) */
+:root {
+  --primary-color: #fcf5e9;
+}
+
+/* Allgemein */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+a:hover {
+  background: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  max-width: 1100px;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  width: 130px;
+}
+
+.aktuell {
+  background: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Hero Sektion */
+.hero-sektion {
+  height: 500px;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-sektion h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+/* Gallerie Sektion */
+.gallerie-sektion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallerie-item {
+  width: 30%;
+}
+
+.gallerie-item img {
+  border-radius: 10px;
+}
+
+.gallerie-item:hover {
+  opacity: 0.8;
+}
+
+/* Services Sektion */
+.services {
+  background: #333;
+  color: #fff;
+  padding: 3rem;
+}
+
+.services-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.services-container h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+/* Team Sektion*/
+.team {
+  padding: 3rem;
+}
+
+.team-container {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.team h2 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.team img {
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #aaa;
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.logo-footer {
+  width: 120px;
+  height: 35px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer i {
+  color: black;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hero-sektion {
+    height: 300px;
+  }
+
+  .hero-sektion h2 {
+    font-size: 1.8rem;
+  }
+
+  .gallerie-item {
+    width: calc(50% - 20px);
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .team-container {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
