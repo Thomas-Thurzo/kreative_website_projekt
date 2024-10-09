@@ -4,7 +4,7 @@
 
 ### Die Website ist voll responsive.
 
-### Eine Demoversion der Website ist unter dieser Adresse erreichbar:
+### Eine Demo Version der Website ist unter dieser Adresse erreichbar:
 https://kreative-website-projekt.netlify.app/
 
 ## Ein Screenshot der Website:
